@@ -8,18 +8,18 @@ Cependant, afin d’être connecté et identifié sur le même bus (de donnée),
 
 Nous vous recommandons de configurer des moteurs en parallèle de l’assemblage des pièces du robot. Ce qui signifie qu’avant d’assembler un moteur neuf, vous commencez par le configurer puis le monter sur le reste du robot. Pendant la procédure d'assemblage, nous indiquerons chaque fois qu'il faut configurer un nouveau moteur.
 
-## Turn on the robot
+## Allumer le robot
 
-If you use Windows or Linux (not needed for Mac OSX) you'll first **need to install Bonjour/Zeroconf ([download link for Windows](https://support.apple.com/kb/DL999))** to be able to connect to the robot. Look at [Bonjour/Zeroconf protocol](../../installation/install-zeroconf.md) dedicated page for more details.
+Si vous utilisez Windows ou Linux (inutile pour Mac OSX) vous devez d'abord **installer Bonjour/Zeroconf ([lien pour Windows](https://support.apple.com/kb/DL999))** pour pouvoir vous connecter au robot. Pour plus de détail, rendez-vous à la page dédiée : [Bonjour/Zeroconf protocol](../../installation/install-zeroconf.md).
 
-Before configuring the motors, you'll have to **turn on the robot:**
+Avant de configure les moteurs, **débrancher le robot du secteur**
 
-* plug the Ethernet wire from the robot to your computer (or your router/box if you want to use an existing network)
-* plug the DC power on the pixl board
+* Connecter le câble Ethernet entre le robot et votre ordinateur (ou routeur/box si vous voulez utiliser un réseau existant)
+* Brancher la prise jack (alimentation électrique) sur la carte pixl
 
-You can now go to your robot web home page on <http://poppy.local>.
+Rendez-vous maintenant sur la page web de votre robot <http://poppy.local>.
 
-If Bonjour is not present, you will have an error message like the one below. If Bonjour is installed and the issue still present, please re-install it. ![Page doesn't exist](img/IHM/webpage_not_available.jpg)
+Si Bonjour n'est pas présent, vous aurez un message d'erreur comme celui-ci. ![Page doesn't exist](img/IHM/webpage_not_available.jpg). Si Bonjour est installé est que le message d'erreur apparaît, veuillez réinstaller Bonjour. 
 
 ## Configuring motors one at a time
 
